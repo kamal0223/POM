@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36986" started-at="2018-04-22T17:10:01Z" finished-at="2018-04-22T17:10:38Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36986" started-at="2018-04-22T17:10:01Z" finished-at="2018-04-22T17:10:38Z">
+      <class name="testcases.TC003_CreateLead">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testcases.TC003_CreateLead@1846619]" name="beforeSuite" is-config="true" duration-ms="759" started-at="2018-04-22T22:40:00Z" finished-at="2018-04-22T22:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setData()[pri:0, instance:testcases.TC003_CreateLead@1846619]" name="setData" is-config="true" duration-ms="0" started-at="2018-04-22T22:40:01Z" finished-at="2018-04-22T22:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setData -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testcases.TC003_CreateLead@1846619]" name="beforeClass" is-config="true" duration-ms="2" started-at="2018-04-22T22:40:01Z" finished-at="2018-04-22T22:40:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testcases.TC003_CreateLead@1846619]" name="beforeMethod" is-config="true" duration-ms="17689" started-at="2018-04-22T22:40:02Z" finished-at="2018-04-22T22:40:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="createLead(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:testcases.TC003_CreateLead@1846619]" name="createLead" duration-ms="17434" started-at="2018-04-22T22:40:19Z" data-provider="fetchData" finished-at="2018-04-22T22:40:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[DemoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[kamalakannan]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[s]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[hcl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createLead -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testcases.TC003_CreateLead@1846619]" name="afterMethod" is-config="true" duration-ms="791" started-at="2018-04-22T22:40:37Z" finished-at="2018-04-22T22:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testcases.TC003_CreateLead@1846619]" name="afterSuite" is-config="true" duration-ms="564" started-at="2018-04-22T22:40:38Z" finished-at="2018-04-22T22:40:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testcases.TC003_CreateLead -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
