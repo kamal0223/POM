@@ -36,7 +36,7 @@ public class CreateLead extends ProjectMethods{
 		return this;
 	}
 	
-	@FindBy(how=How.ID,using="createLeadForm_firstName1")
+	@FindBy(how=How.ID,using="createLeadForm_firstName")
 	public WebElement eleFirstName;
 	@And("Enter First Name as (.*)")
 	public CreateLead enterFirstName(String data) {
