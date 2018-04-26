@@ -19,7 +19,7 @@ public class CreateLead extends ProjectMethods{
 	}
 	
 
-	@FindBy(how=How.ID,using="createLeadForm_companyName")
+	@FindBy(how=How.ID,using="createLeadForm_companyName1")
 	private WebElement eleCompanyName;
 	@And("Enter Company Name as (.*)")
 	public CreateLead enterCompanyName(String data) {
