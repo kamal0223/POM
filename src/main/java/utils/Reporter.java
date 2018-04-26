@@ -1,5 +1,6 @@
 package utils;
 
+import java.io.File;
 import java.io.IOException;
 
 import com.aventstack.extentreports.AnalysisStrategy;
@@ -18,7 +19,10 @@ public abstract class Reporter {
 
 
 	public void startResult() {
+		/*File f = new File("./reports/result.html");
+		if(!f.exists() == f.mkdir())*/
 		html = new ExtentHtmlReporter("./reports/result.html");
+		
 		html.setAppendExisting(true);		
 		extent = new ExtentReports();		
 		extent.attachReporter(html);	

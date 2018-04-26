@@ -6,10 +6,7 @@
       <class name="testcases.TC003_CreateLead">
         <methods>
           <include name="beforeSuite"/>
-          <include name="createLead" invocation-numbers="0 1"/>
-          <include name="setData"/>
-          <include name="beforeMethod"/>
-          <include name="beforeClass"/>
+          <include name="createLead"/>
         </methods>
       </class> <!-- testcases.TC003_CreateLead -->
     </classes>
